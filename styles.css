@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
+/*font-size: 10px;font-family: Roboto, Arial, sans-serif*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 900;
+}
+.w3-bar-item{
+ margin-bottom: 1rem;
+ font-weight: 10;
+ font-size: 16px;
+ text-transform: capitalize;
+ text-align: justify;
+ margin-left: 5rem;
+ position: fixed;
+}
+
+body{
+ font-family: Roboto, Arial, sans-serif;
+}
+.w3-sidebar{
+ text-align: center;
+ margin-top: 5%;
+ position: fixed;
+}
+.logo{
+ text-align: center;
+ width: 19%;
+ position: fixed;
+ top: 0.5rem;
+ text-align: justify;
+ margin-left: 0.5rem;
+}
+.nav{
+ margin-left: 30%;
+ display: flex;
+ justify-content: space-between;
+}
+
+#name{
+ width: 30rem;
+ height: 2.5rem;
+ 
+ border: 1px solid grey;
+ position: fixed;
+ top: 0.5rem;
+}
+.nav input{
+ letter-spacing: 1px;
+ width: 100%;
+ border: 1px solid black;
+ padding: 10px;
+ color: white;
+ outline: none;
+ font-size: 16px;
+ font-weight: 300;
+ resize: none;
+}
+.icons{
+ display: flex;
+ list-style-type: none;
+ margin-right: 2rem;
+}
+.sim{
+ margin-left: 3rem;
+ font-size: 2rem;
+ border-radius: 50%;
+ 
+}
+.fa-brand{
+ margin-right: 8rem;
+ font-size: 2rem;
+ color: white;
+ background-color: black;
+border-radius: 50%;
+}
+.fa-youtube{
+ color: red;
+ margin-left: -0.5rem;
+ background-color: white;
+}
+.line{
+ color: grey;
+ width: 10rem;
+ border: 0.1px solid grey;
+}
+hr{
+ margin-left: 1rem;
+}
+.home{
+ font-size: 15px;
+ padding: 0.75rem 1rem;
+ font-weight: 10;
+ width: 90%;
+ text-align: justify;
+ margin: 0 auto;
+ margin-left: 1rem;
+ margin-bottom: 0.3rem;
+ border-radius: 10px;
+}
+.home:hover{
+ background-color: lightgray;
+}
+.home-1{
+ background-color: lightgray;
+}
+i{
+ margin-right: 20px;
+}
+.heading{
+ font-size: 20px;
+ font-weight: 10;
+ margin-bottom: 1rem;
+ margin-right: 3.8rem;
+ margin-top: 1.5rem;
+}
+.fa-bars{
+ color: grey;
+ margin-left: 0.8rem;
+}
+
+
+.side{
+ margin-left: 20%;
+}
+.buttons{
+ display: flex;
+ list-style-type: none;
+ width: 100%;
+}
+.btn{
+ margin-left: 1rem;
+ padding: 0.5rem 1rem;
+ border-radius: 5px;
+ border: transparent;
+}
+.btn:hover{
+ background-color: lightgray;
+ transition: 1s;
+}
+.btn-1:hover{
+ background-color: black;
+}
+.btn-1{
+ background-color: black;
+ color: white;
+ border-radius: 8px;
+ padding: 0.5rem 0.8rem;
+}
+.joint{
+ display: flex;
+ margin-top: 8px;
+}
+.imgBox{
+ margin-top: 2rem;
+}
+.images{
+ width: 100%;
+ border-radius: 20px;
+}
+.pics{
+ width: 60%;
+ border-radius: 50%;
+}
+.text{
+ width: 60%;
+ margin-left: -1rem;
+ margin-bottom: 1rem;
+ font-size: 13px;
+ font-weight: 5;
+ line-height: 1.2rem;
+}
+.box{
+ margin-left: 1rem;
+ width: 23%;
+}
+.banner{
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+.text p{
+ margin-top: px;
+}
+.subscriptions{
+ font-size: 15px;
+ padding: 0.5rem;
+ font-weight: 10;
+ width: 70%;
+ text-align: justify;
+ margin-left: 1.3rem;
+ margin-top: 10px;
+ display: flex;
+ height: 35px;
+ 
+}
+.subscriptions img{
+ border-radius: 50%;
+ margin-top: 5px;
+}
+.subscriptions p{
+ margin-bottom: 1rem;
+}
+.first{
+
+}
+.second{
+ margin-right: 4rem;
+ margin-top: 8px;
+}
+.heading{
+ margin-bottom: 1px;
+}
+.fa-clock{
+ color: black;
+}
